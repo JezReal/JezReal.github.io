@@ -1,0 +1,60 @@
+@font-face {
+    font-family: DejaVuSerif;
+    src: url(../assets/fonts/dejavu-serif.book.ttf);
+
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto/Roboto-Light.ttf);
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    /* background by SVGBackgrounds.com */
+    background-image: url("../assets/images/background-bw.svg");
+    background-size: cover;
+    background-color: aquamarine;
+}
+
+.main-container {
+    display: flex;
+       flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text-container {
+    margin-left: 2rem;
+}
+
+img {
+    width: 35vw;        
+    border-top-left-radius: 20%;
+}
+
+h1 {
+    font-family: 'DejaVuSerif', serif;
+    font-size: 8rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5rem;
+    margin-bottom: 7rem;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+
+    padding: 0.8rem;
+    border: 2px solid #414141
+}
+
+a:visited, a:active {
+    color: black;
+}
